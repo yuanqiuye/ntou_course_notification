@@ -35,7 +35,11 @@ dependencies:
   font_awesome_flutter: ^8.2.0 
   #login的
 
-
+  # v storage dependencies v
+  sqflite:
+  path:
+  # ^ storage dependencies ^
+  
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2

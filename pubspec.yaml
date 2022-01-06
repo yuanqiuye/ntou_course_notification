@@ -31,18 +31,23 @@ dependencies:
     sdk: flutter
    
   #login的
-  flutter_screenutil: ^0.4.2
-  font_awesome_flutter: ^8.2.0 
+  flutter_screenutil: ^5.0.2
+  font_awesome_flutter: ^9.2.0 
   #login的
 
   # v storage dependencies v
   sqflite:
   path:
-  # ^ storage dependencies ^
-  
+  universal_html: '>=2.0.8'
+  http: ">=0.13.4"
+  tuple: ">=2.0.0"
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  flutter_local_notifications: ">=9.2.0"
+  timezone: "0.8.0"
+  animations: "2.0.2"
+
 
 dev_dependencies:
   flutter_test:
